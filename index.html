@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcula</title>
+    <title>Calculate</title>
 </head>
 <body>
-    
+    <!-- form for calculator inputs -->
+    <h1>Addition Calculator</h1>
+    <form action="#" method="get" id="form">
+        <!-- input first num -->
+        <div>
+            <label for="a">First Number:</label>
+            <input type="number" name="a" id="a">
+        </div>
+        <br>    
+        <!-- input second num -->
+        <div>
+             <label for="b">Second Number:</label>
+             <input type="number" name="b" id="b">
+       </div>
+       <br>
+       <!-- calculate -->
+       <!-- attach event listener to button submit object and call function -->
+        <button id="button">Calculate!</button>
+    </form>
+
+    <h2>Result:</h2>
+    <div>
+        <!-- will update innerText attribute with function result -->
+        <h3 id="result"></h3>
+    </div>
+    <!-- link js function -->
+    <script src="app.js"></script>
 </body>
 </html>
