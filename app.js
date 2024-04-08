@@ -5,5 +5,5 @@ const addition = (a, b) => {
     return a + b;
 }
 
-//make function exportable
+//make function exportable 
 module.exports = {addition}
