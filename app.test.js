@@ -1,5 +1,5 @@
 
-const { addition } = require('./app'); // Import the function from app.js
+const { addition } = require('./functions'); // Import the function from app.js
 
 describe('addition', () => {
     // Arrange
