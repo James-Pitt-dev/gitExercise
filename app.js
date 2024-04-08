@@ -13,6 +13,7 @@ const addition = (a, b) => {
     return a + b;
 }
 
+
 // set event listener to fire on button submit, call addition(), then update html with results
 form.addEventListener('submit', (e) => {
     e.preventDefault(); // stops page refresh on submit, better UX
